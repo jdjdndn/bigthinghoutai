@@ -7,5 +7,5 @@ const router = express.Router()
 router.post('/reguser',userHandler.regUser )
 //登录接口
 router.post('/login',userHandler.login )
-//到处模块
+//导出模块
 module.exports=router
